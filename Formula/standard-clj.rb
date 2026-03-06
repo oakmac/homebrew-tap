@@ -2,7 +2,7 @@ class StandardClj < Formula
   desc "Formatter for Clojure code using Standard Clojure Style"
   homepage "https://github.com/oakmac/standard-clojure-style-binary"
   url "https://github.com/oakmac/standard-clojure-style-binary/archive/refs/tags/v0.0.1.tar.gz"
-  sha256 "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5"
+  sha256 "8e1485940e53edd4670fa0f904a2e345dcad5e80489722307a7a2787c49a03f8"
   license "ISC"
 
   def install
