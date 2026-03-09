@@ -17,7 +17,7 @@ class StandardClj < Formula
   desc "Formatter for Clojure code using Standard Clojure Style"
   homepage "https://github.com/oakmac/standard-clojure-style-js"
   license "ISC"
-  version "1.0.0"
+  version "0.0.12-test"
 
   on_macos do
     if Hardware::CPU.arm?
