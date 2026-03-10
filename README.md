@@ -13,7 +13,7 @@ brew install standard-clj
 
 ## Maintainer: How to Release a New Version
 
-You will forget this. That's OK. Here are the steps.
+This documents the release process for publishing a new version of the Homebrew formula.
 
 ### Background
 
