@@ -22,20 +22,20 @@ class StandardClj < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/oakmac/standard-clojure-style-js/releases/download/v0.28.0/standard-clj-macos-aarch64"
-      sha256 "9290f8c5b2899bcd9e10b4e6554dc37859a24f5a21e0c62bc17d5e11acb14db7"
+      sha256 "a3982b51ceb3b5520f61787ff403e2024ee4a9513a2d5e50a3a2cc9571b84c9a"
     else
       url "https://github.com/oakmac/standard-clojure-style-js/releases/download/v0.28.0/standard-clj-macos-x86_64"
-      sha256 "875f3507a14c8ed2fc06db05d8f4c8400e54a30e701c41cce1a2d6c683b86161"
+      sha256 "78733ccbcf2775a91d10222b01069ec0b78f9e63adf2287cd637069105c5903e"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
       url "https://github.com/oakmac/standard-clojure-style-js/releases/download/v0.28.0/standard-clj-linux-aarch64"
-      sha256 "9a1d6554c577f95fb70b72a5fbfe87d3ea1d05194664b15408cd13d3c93e7510"
+      sha256 "764e099928c0276739eabd5ba61dde3280704325e8e2efcadc6629d79ff7feaa"
     else
       url "https://github.com/oakmac/standard-clojure-style-js/releases/download/v0.28.0/standard-clj-linux-x86_64"
-      sha256 "4ab58b4e69605ff6f99a90088845b26e781b968ee0ce84478a85df41d239680e"
+      sha256 "ca8bacc833ef87955d3cb1f44f8905e4877ebec4b9c22b30d052fcf0cacbdeb1"
     end
   end
 
