@@ -17,24 +17,24 @@ class StandardClj < Formula
   desc "Formatter for Clojure code using Standard Clojure Style"
   homepage "https://github.com/oakmac/standard-clojure-style-js"
   license "ISC"
-  version "0.28.0"
+  version "0.29.0"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/oakmac/standard-clojure-style-js/releases/download/v0.28.0/standard-clj-macos-aarch64"
+      url "https://github.com/oakmac/standard-clojure-style-js/releases/download/v0.29.0/standard-clj-macos-aarch64"
       sha256 "a3982b51ceb3b5520f61787ff403e2024ee4a9513a2d5e50a3a2cc9571b84c9a"
     else
-      url "https://github.com/oakmac/standard-clojure-style-js/releases/download/v0.28.0/standard-clj-macos-x86_64"
+      url "https://github.com/oakmac/standard-clojure-style-js/releases/download/v0.29.0/standard-clj-macos-x86_64"
       sha256 "78733ccbcf2775a91d10222b01069ec0b78f9e63adf2287cd637069105c5903e"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/oakmac/standard-clojure-style-js/releases/download/v0.28.0/standard-clj-linux-aarch64"
+      url "https://github.com/oakmac/standard-clojure-style-js/releases/download/v0.29.0/standard-clj-linux-aarch64"
       sha256 "764e099928c0276739eabd5ba61dde3280704325e8e2efcadc6629d79ff7feaa"
     else
-      url "https://github.com/oakmac/standard-clojure-style-js/releases/download/v0.28.0/standard-clj-linux-x86_64"
+      url "https://github.com/oakmac/standard-clojure-style-js/releases/download/v0.29.0/standard-clj-linux-x86_64"
       sha256 "ca8bacc833ef87955d3cb1f44f8905e4877ebec4b9c22b30d052fcf0cacbdeb1"
     end
   end
